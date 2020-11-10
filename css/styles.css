@@ -6,10 +6,6 @@ body {
   overflow-x: hidden;
 }
 
-/*---------------------------------------
-     TYPOGRAPHY              
-  -----------------------------------------*/
-
 h1,
 h2,
 h3,
@@ -183,12 +179,6 @@ section {
   border: 5px solid #ce3232;
   border-top-color: #ffffff;
   animation: spinner 0.9s linear infinite;
-}
-
-@-webkit-@keyframes spinner {
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 @keyframes spinner {
